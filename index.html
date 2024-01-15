@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Bookstore</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <div id="product-container" class="border">
+            <p>Books</p>
+            <div id="product-cards-container" class="scroll-bar">
+            </div>
+        </div>
+        <div id="cart-container" class="border">
+            <p>Your Cart</p>
+            <div id="cart-cards-container" class="scroll-bar">
+                <p id="empty-message">Nothing in the shelf</p>
+            </div>
+            <div id="total-price-card">
+                <p>Total:</p>
+                <p id="total-price">0</p>
+            </div>
+        </div>
+    </main>
+    <script src="./books.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
